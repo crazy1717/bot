@@ -1,4 +1,4 @@
-import { getStatusGame } from "controllers";
+import { getStatusGame } from "./controllers";
 import { sendgridMail } from "./controllers/sendgrid";
 import schedule from "node-schedule";
 
