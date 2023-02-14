@@ -12,7 +12,7 @@ schedule.scheduleJob("* * * * *", async () => {
 
   try {
     const res = await getStatusGame();
-    if (res) {
+    if (true) {
       await sendgridMail(msg);
       console.log("enviado");
     }
